@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="59e02500-402a-4161-b03b-7ffb44675a05" name="实验室GPU">
+        <fileTransfer rootFolder="/media/cdrom/yhl" accessType="SFTP" host="114.212.87.44" port="22" sshConfigId="45bcc0c9-264a-4d2b-bcb4-e6a1459bdc12" sshConfig="iip@114.212.87.44:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="7f413ddd-76e4-4fd9-814b-20a89300961c" name="计算机系GPU">
+        <fileTransfer rootFolder="/root/yhl" accessType="SFTP" host="210.28.133.13" port="20416" sshConfigId="721bac76-3552-4682-8e81-607bce765b08" sshConfig="root@210.28.133.13:20416 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
